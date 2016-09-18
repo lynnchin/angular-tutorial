@@ -1,0 +1,19 @@
+<html ng-app="app">
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/MoviesController.js"></script>
+</head>
+<body>
+   <div ng-controller="MoviesController as movies">
+    <ul>
+        <li ng-repeat="movie in movies.favorites">
+           <p>Name: {{ movie.title}}</p>
+           <p>Year: {{ movie.year }}</p>
+           <p ng-hide="movie.popular">This movie is popular!</p>
+           <p ng-show="movie.year < '2000'">This is an old movie</p>
+        </li>
+       </ul>
+    </div>
+</body>
+</html>
