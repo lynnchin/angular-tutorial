@@ -3,12 +3,14 @@ function MoviesController(){
        title: 'This is how it works',
         year: '1999',
         popular : true,
-        category: 'thriller'
+        category: 'thriller',
+        img: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRo9vfJCM6dzPkZHIHBVCtlJnAnew9Ai26kEdrli0-tfmatmciD'
     }, {
         title: 'This is B',
         year: '2034',
         popular: false,
-        category: 'fantasy'
+        category: 'fantasy',
+        img: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSkmMH-bEDUS2TmK8amBqgIMgrfzN1_mImChPuMrunA1XjNTSKm'
     },{
         title: 'The matrix',
         year: '2032',
