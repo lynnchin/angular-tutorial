@@ -2,17 +2,20 @@ function MoviesController(){
     this.favorites = [{
        title: 'This is how it works',
         year: '2003',
-        popular : true
+        popular : true,
+        category: 'thriller'
     }, {
         title: 'This is B',
         year: '2034',
-        popular: false
+        popular: false,
+        category: 'fantasy'
     },{
         title: 'The matrix',
         year: '2032',
-        popular: true
+        popular: true,
+        category: 'romance'
     },{
-        title: 'Save A',
+        title: 'Save Amber',
         year: '3023',
         popular: false
     }];

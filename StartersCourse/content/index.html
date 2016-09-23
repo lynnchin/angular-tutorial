@@ -10,6 +10,20 @@
         <li ng-repeat="movie in movies.favorites">
            <p>Name: {{ movie.title}}</p>
            <p>Year: {{ movie.year }}</p>
+           <div ng-switch="movie.category">
+            <div ng-switch-when="action">
+                Action movie!
+            </div>
+            <div ng-switch-when="thriller">
+                Thriller movie!
+               </div>
+               <div ng-switch-when="fantasy">
+                Fantasy movie!
+               </div >
+               <div ng-switch-default>
+                   Movie with no category!
+               </div>
+            </div>
            <p ng-if="movie.popular">This movie is popular!</p>
            <p ng-if="movie.year < '2000'">This is an old movie</p>
            <p ng-if="movie.year > '2000'">This movie is quite new!</p>
