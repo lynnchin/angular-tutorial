@@ -13,11 +13,16 @@
    <div ng-controller="MoviesController as movies">
     <ul>
         <li 
-        ng-class="movie.year < 2000 ? 'old' : 'modern'"
+        ng-class="{
+                  old: movie.year < 1995,
+                  modern: movie.year > 1995 && movie.year < 2000,
+                  new: movie.year > 2000
+                  }"
         ng-repeat="movie in movies.favorites">
-           <p>Name: {{ movie.title}}</p>
-           <p>Year: {{ movie.year }}</p>
-           <div ng-switch="movie.category">
+           <p>{{ movie.title}}</p>
+           <p>Release in: {{ movie.year }}</p>
+           <input type="text" ng-model="movie.year" />
+            <div ng-switch="movie.category">
             <div ng-switch-when="action">
                 Action movie!
             </div>

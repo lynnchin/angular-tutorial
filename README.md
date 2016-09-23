@@ -15,3 +15,5 @@ Angular Starters Course:
 * 08 - ng-if
 * 09 - ng-switch
 * 10 - ng-class
+* 11 - ng-model
+* 12 - ng-src-href
