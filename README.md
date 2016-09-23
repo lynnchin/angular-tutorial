@@ -12,4 +12,6 @@ Angular Starters Course:
 * 05 - Ctrl-as
 * 06 - ng-repeat
 * 07 - ng-show-hide
-
+* 08 - ng-if
+* 09 - ng-switch
+* 10 - ng-class

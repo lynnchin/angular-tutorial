@@ -3,11 +3,18 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <script src="js/app.js"></script>
 <script src="js/MoviesController.js"></script>
+ <style>
+     .old {background:  red; } 
+     .modern {background: blue; } 
+     .new {background: green; } 
+</style>    
 </head>
 <body>
    <div ng-controller="MoviesController as movies">
     <ul>
-        <li ng-repeat="movie in movies.favorites">
+        <li 
+        ng-class="movie.year < 2000 ? 'old' : 'modern'"
+        ng-repeat="movie in movies.favorites">
            <p>Name: {{ movie.title}}</p>
            <p>Year: {{ movie.year }}</p>
            <div ng-switch="movie.category">

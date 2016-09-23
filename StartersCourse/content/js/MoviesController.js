@@ -1,7 +1,7 @@
 function MoviesController(){
     this.favorites = [{
        title: 'This is how it works',
-        year: '2003',
+        year: '1999',
         popular : true,
         category: 'thriller'
     }, {
