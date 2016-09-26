@@ -19,3 +19,5 @@ Angular Starters Course:
 * 12 - ng-src-href
 * 13 - ng-click
 * 14 - ng-submit
+* 15 - ng-blur-focus
+* 16 - ng-change

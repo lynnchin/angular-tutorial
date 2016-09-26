@@ -3,6 +3,10 @@ function MoviesController(){
     this.newTitle = "";
     this.newRelease = "";
     
+    this.onChange = function(){
+       console.log("Change!", this.newTitle);  
+    };
+    
     this.onFocus = function(){
         console.log('Focus!');
     };
