@@ -7,10 +7,21 @@
      .old {background:  red; } 
      .modern {background: blue; } 
      .new {background: green; } 
+     .likes { background-color: lightgrey; }
 </style>    
 </head>
 <body>
    <div ng-controller="MoviesController as movies">
+    <div class="likes">
+        <p> Todd's like list</p>
+           <ul>
+            <li ng-repeat="like in movies.likesList">
+                <p>{{ like.title }}</p>
+                <a href="" ng-click="movies.unlike($index);">Unlike!</a>
+               </li>
+           </ul>
+       </div>
+       
     <ul>
         <li 
         ng-class="{
@@ -19,9 +30,9 @@
                   new: movie.year > 2000
                   }"
         ng-repeat="movie in movies.favorites">
-           
            <p><a href="{{movie.img}}">{{ movie.title}}</a></p>
             <img ng-src="{{movie.img}}" />
+            <a href="" ng-click="movies.addToLikes(movie);">Like this movie!</a>
            <p>Release in: {{ movie.year }}</p>
            <input type="text" ng-model="movie.year" />
             <div ng-switch="movie.category">
@@ -43,6 +54,9 @@
            <p ng-if="movie.year > '2000'">This movie is quite new!</p>
         </li>
        </ul>
+       
+        
+       
     </div>
 </body>
 </html>

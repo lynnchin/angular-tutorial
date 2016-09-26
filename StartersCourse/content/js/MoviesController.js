@@ -1,4 +1,13 @@
 function MoviesController(){
+    this.likesList = [];
+    this.addToLikes = function(movie){
+        this.likesList.push(movie);
+    };
+    
+    this.unlike = function(index){
+        this.likesList.splice(index, 1);
+    }
+    
     this.favorites = [{
        title: 'This is how it works',
         year: '1999',

@@ -17,3 +17,5 @@ Angular Starters Course:
 * 10 - ng-class
 * 11 - ng-model
 * 12 - ng-src-href
+* 13 - ng-click
+
