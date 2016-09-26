@@ -3,6 +3,14 @@ function MoviesController(){
     this.newTitle = "";
     this.newRelease = "";
     
+    this.onFocus = function(){
+        console.log('Focus!');
+    };
+    
+    this.onBlur = function(){
+        console.log('Blur!');
+    };
+    
     this.addToLikes = function(movie){
         this.likesList.push(movie);
     };
