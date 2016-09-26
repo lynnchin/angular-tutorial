@@ -3,6 +3,7 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <script src="js/app.js"></script>
 <script src="js/MoviesController.js"></script>
+<script src="js/MainController.js"></script>
  <style>
      .old {background:  red; } 
      .modern {background: blue; } 
@@ -33,6 +34,15 @@
             </p>
            </li>
        </ul>
+    </div>
+    <div ng-controller="MainController as main">
+     <p><a href="" ng-click="myKey = 'one'">
+        Key One
+         </a></p>
+        <p><a href="" ng-click="myKey = 'two'">
+         Key Two
+            </a></p>
+        <p>{{ main.myObject[myKey] }} </p>
     </div>
 </body>
 </html>
