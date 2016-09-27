@@ -1,10 +1,5 @@
 function MainController(){
-    this.name = 'Lynn';
-    this.myObject = {
-    one: 'key 1',
-    two: 'key 2'
-};
-
+    this.myDate = 1228323623006;
 }
 
 

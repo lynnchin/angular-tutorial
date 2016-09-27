@@ -22,3 +22,4 @@ Angular Starters Course:
 * 15 - ng-blur-focus
 * 16 - ng-change
 * 17 - expressions
+* 18 - date filters

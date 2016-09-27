@@ -12,37 +12,9 @@
 </style>    
 </head>
 <body>
-   <div ng-controller="MoviesController as movies">
-    <form ng-submit="movies.addMovie();">
-        <p>Add a movie</p>
-        <input type="text" placeholder="Title" 
-               ng-change="movies.onChange();"
-               ng-model="movies.newTitle" 
-               ng-focus="movies.onFocus();"
-               ng-blur="movies.onBlur();">
-        <input type="text" placeholder="Release year" 
-               ng-model="movies.newRelease">
-        <button type="submit">Add movie!</button>
-    </form>
-       <ul>
-        <li ng-repeat="movie in movies.favorites">
-           <p>
-            {{ movie.title }} {{ $index }}
-            </p>
-            <p>
-             Released in: {{ movie.year }}
-            </p>
-           </li>
-       </ul>
-    </div>
     <div ng-controller="MainController as main">
-     <p><a href="" ng-click="myKey = 'one'">
-        Key One
-         </a></p>
-        <p><a href="" ng-click="myKey = 'two'">
-         Key Two
-            </a></p>
-        <p>{{ main.myObject[myKey] }} </p>
+     <p> {{ main.myDate | date: 'MMM dd, yyyy HH:mm' }}
+        </p>
     </div>
 </body>
 </html>
