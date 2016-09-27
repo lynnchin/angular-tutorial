@@ -12,14 +12,8 @@
 </style>    
 </head>
 <body>
-    <div ng-controller="MoviesController as movies">
-        <input type="text" placeholder="Search by year" ng-model="search">
-    <ul>
-        <li ng-repeat="movie in movies.favorites | filter: { year: search }">
-         <p>{{ movie.title }}</p>
-         <p>Released in: {{ movie.year}} </p>
-        </li>
-    </ul>
+    <div ng-controller="MainController as main">
+    <input type="text" ng-model="main.person.location">
     </div>
 </body>
 </html>
