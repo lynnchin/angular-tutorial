@@ -23,3 +23,4 @@ Angular Starters Course:
 * 16 - ng-change
 * 17 - expressions
 * 18 - date filters
+* 19 - currency filters
