@@ -24,3 +24,4 @@ Angular Starters Course:
 * 17 - expressions
 * 18 - date filters
 * 19 - currency filters
+* 20 - Filter And Sorting Collections
