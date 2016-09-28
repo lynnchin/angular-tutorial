@@ -26,3 +26,4 @@ Angular Starters Course:
 * 19 - currency filters
 * 20 - Filter And Sorting Collections
 * 21 - JSON debugging
+* 22 - Using HTTP

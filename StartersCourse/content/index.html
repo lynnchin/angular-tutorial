@@ -4,6 +4,7 @@
 <script src="js/app.js"></script>
 <script src="js/MoviesController.js"></script>
 <script src="js/MainController.js"></script>
+<script src="js/UserController.js"></script>    
  <style>
      .old {background:  red; } 
      .modern {background: blue; } 
@@ -12,8 +13,14 @@
 </style>    
 </head>
 <body>
-    <div ng-controller="MainController as main">
-    <input type="text" ng-model="main.person.location">
+    <div ng-controller="UserController as user">
+     <form ng-submit="user.getUser();">
+        <input type="text" ng-model="user.userId">
+        <button type="submit">
+         Search User
+         </button>
+     </form>
+        <pre>{{ user.chosenUser }}</pre>
     </div>
 </body>
 </html>
