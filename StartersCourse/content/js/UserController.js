@@ -1,5 +1,5 @@
-function UserController($http){
-    var API = "//jsonplaceholder.typicode.com/users/"
+function UserController(UserService){
+    
     var ctrl = this;
     this.userId = '';
     this.chosenUser = {};
@@ -8,16 +8,11 @@ function UserController($http){
             return;
         }
         
-        $http.get(API + this.userId)
-        .then(function(response){
-            // success
-            ctrl.chosenUser = response.data;
-        }, function(reason){
-            // error
-            ctrl.chosenUser = response.data;
+        UserService.getUser(this.userId)
+                    .then(function(response){
+            ctrl.chosenUser = response;      
         })
     };
-    
 }
 
 angular
