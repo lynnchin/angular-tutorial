@@ -29,3 +29,4 @@ Angular Starters Course:
 * 22 - Using HTTP
 * 23 - Services and Factories
 * 24 - Behaviour Directives
+* 25 - Template Directives
