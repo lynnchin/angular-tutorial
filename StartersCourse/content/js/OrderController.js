@@ -1,6 +1,18 @@
 function OrderController(){
-    this.orderName = 'Coke';
-    this.orderQuantity = 5;
+    this.customerOrder = {
+      name: '',
+      email: '',
+      location: '',
+      product: {
+          label: '',
+          id: ''
+      },
+      comments: ''
+    };
+    
+    this.submitOrder = function(){
+        
+    };
 }
 
 angular

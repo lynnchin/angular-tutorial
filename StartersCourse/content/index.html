@@ -4,7 +4,8 @@
 <script src="js/app.js"></script>
 <script src="js/CounterController.js"></script>
 <script src="js/OrderController.js"></script>
-<script src="js/counter.directive.js"></script> 
+<script src="js/OrderFormController.js"></script>    
+<script src="js/order-form.directive.js"></script> 
  <style>
      .old {background:  red; } 
      .modern {background: blue; } 
@@ -14,8 +15,7 @@
 </head>
 <body>
     <div ng-controller="OrderController as order">
-      <h1>Order count: {{ order.orderQuantity }}</h1>
-      <counter name="{{order.orderName}}" count="order.orderQuantity"></counter>
+     <order-form data="order.customerOrder" submit="order.submitOrder();"></order-form>
     </div>
 </body>
 </html>
