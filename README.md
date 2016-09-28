@@ -27,3 +27,5 @@ Angular Starters Course:
 * 20 - Filter And Sorting Collections
 * 21 - JSON debugging
 * 22 - Using HTTP
+* 23 - Services and Factories
+* 24 - Behaviour Directives
