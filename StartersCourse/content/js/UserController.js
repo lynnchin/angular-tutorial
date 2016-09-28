@@ -8,8 +8,9 @@ function UserController(UserService){
             return;
         }
         
-        UserService.getUser(this.userId)
-                    .then(function(response){
+        UserService
+            .getUser(this.userId)
+            .then(function(response){
             ctrl.chosenUser = response;      
         })
     };

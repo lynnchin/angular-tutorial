@@ -1,7 +1,7 @@
 function UserService($http){
     var API = "//jsonplaceholder.typicode.com/users/"
-    this.getUser = function(userId){
-          $http.get(API + userId)
+    function getUser(userId){
+         return $http.get(API + userId)
         .then(function(response){
             // success
             return response.data;
@@ -10,9 +10,17 @@ function UserService($http){
             return response.data;
         })
     };
+    function getAllUsers(){
+        
+    }
+    
+    return {
+        getUser: getUser,
+        getAllUsers: getAllUsers
+    };
 }
 
 
 angular
  .module ('app')
- .service ('UserService',UserService);
+ .factory ('UserService',UserService);
