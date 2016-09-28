@@ -5,7 +5,8 @@
 <script src="js/MoviesController.js"></script>
 <script src="js/MainController.js"></script>
 <script src="js/UserController.js"></script>
-<script src="js/UserService.js"></script> 
+<script src="js/UserService.js"></script>
+<script src="js/stretch.directive.js"></script> 
  <style>
      .old {background:  red; } 
      .modern {background: blue; } 
@@ -16,7 +17,9 @@
 <body>
     <div ng-controller="UserController as user">
      <form ng-submit="user.getUser();">
-        <input type="text" ng-model="user.userId">
+        <input type="text" 
+               ng-model="user.userId"
+               stretch="">
         <button type="submit">
          Search User
          </button>
