@@ -1,10 +1,14 @@
 function counter(){
     return {
-        scope: {},
+        bindToController: {
+            name: '@',
+            count: '=' // '=count'
+        },
         restrict: 'E',
         controller: 'CounterController as counter',
         template: `
             <div class="counter">
+            {{ counter.name }}
             <input type="text" ng-model="counter.count">
             <button type="button" ng-click="counter.decrement();">
             -

@@ -30,3 +30,4 @@ Angular Starters Course:
 * 23 - Services and Factories
 * 24 - Behaviour Directives
 * 25 - Template Directives
+* 26 - Stateful Directives
