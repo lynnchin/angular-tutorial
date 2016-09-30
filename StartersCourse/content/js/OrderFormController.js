@@ -12,7 +12,8 @@ function OrderFormController(){
     
     this.onSubmit = function(){
       // pre-processing
-      this.submit();  
+      this.submit(); 
+      console.log("Form submitted!");
     };
 }
 
