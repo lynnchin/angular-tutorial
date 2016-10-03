@@ -37,3 +37,8 @@ Angular Starters Course:
 * 30 - ng-disabled
 * 31 - validation-errors
 * 32 - ui-router.basics
+
+Angular Master Course - Part 1:
+
+* 00 - Introduction
+* 
