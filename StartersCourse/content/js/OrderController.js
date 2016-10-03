@@ -11,7 +11,7 @@ function OrderController(){
     };
     
     this.submitOrder = function(){
-        
+      console.log('Submitted', this.customerOrder);  
     };
 }
 

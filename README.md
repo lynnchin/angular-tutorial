@@ -33,3 +33,7 @@ Angular Starters Course:
 * 26 - Stateful Directives
 * 27 - Binding model forms
 * 28 - Internal Validation States
+* 29 - ng-options
+* 30 - ng-disabled
+* 31 - validation-errors
+* 32 - ui-router.basics
