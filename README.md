@@ -41,4 +41,5 @@ Angular Starters Course:
 Angular Master Course - Part 1:
 
 * 00 - Introduction
-* 
+* 01 - Architecture
+* 02 - Component Architecture
