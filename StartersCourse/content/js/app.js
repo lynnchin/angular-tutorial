@@ -1,1 +1,2 @@
-angular.module("app", [])
+angular.module("app", 
+               ['ui.router']);
