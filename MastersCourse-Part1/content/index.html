@@ -1,0 +1,20 @@
+<html ng-app="app">
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controllers/CounterController.js"></script>
+<script src="js/directives/Counter.js"></script> 
+    
+ <style>
+     .counter--food { background: red; }
+     .counter--drink { background: blue; }
+</style>
+    
+</head>
+<body ng-app="app">
+    <h1>Angular App!</h1>
+<div class="counter" ng-controller="CounterController as counter">
+    <counter name="{{counter.name}}"></counter>
+</div>
+</body>
+</html>

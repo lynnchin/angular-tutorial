@@ -44,3 +44,6 @@ Angular Master Course - Part 1:
 * 01 - Architecture
 * 02 - Component Architecture
 * 03 - One way data flow
+* 04 - Stateless Component Routed
+* 05 - Scope-watch-collection
+* 06 - Attrs-observe
