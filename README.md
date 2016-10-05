@@ -47,3 +47,4 @@ Angular Master Course - Part 1:
 * 04 - Stateless Component Routed
 * 05 - Scope-watch-collection
 * 06 - Attrs-observe
+* 07 - Directive controllers

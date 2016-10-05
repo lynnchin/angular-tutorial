@@ -1,5 +1,6 @@
 function counter(){
     return {
+      scope: {},
       template: `
             <div class="counter">
             <p>Counter: {{ counter.count }}</p>
@@ -11,6 +12,7 @@ function counter(){
             </div>
             </div>
         `,
+        controller: 'CounterController as counter',
         link: function ($scope, $element, $attrs) {
             $attrs.$observe('name', function(value){
                 console.log(value);
