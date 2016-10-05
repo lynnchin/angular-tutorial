@@ -1,6 +1,8 @@
 function counter(){
     return {
-      scope: {},
+      scope: {
+          count : '='
+             },
       template: `
             <div class="counter">
             <p>Counter: {{ counter.count }}</p>

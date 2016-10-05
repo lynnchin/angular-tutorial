@@ -48,3 +48,4 @@ Angular Master Course - Part 1:
 * 05 - Scope-watch-collection
 * 06 - Attrs-observe
 * 07 - Directive controllers
+* 08 - Isolated Inherited Scope

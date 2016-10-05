@@ -1,5 +1,5 @@
-function CounterController(){
-            this.count = 0;
+function CounterController($scope){
+            this.count = $scope.count;
             this.increment = function increment(){
                 this.count++;
             };
