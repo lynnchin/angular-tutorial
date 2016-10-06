@@ -49,3 +49,4 @@ Angular Master Course - Part 1:
 * 06 - Attrs-observe
 * 07 - Directive controllers
 * 08 - Isolated Inherited Scope
+* 09 - Bind to controller
