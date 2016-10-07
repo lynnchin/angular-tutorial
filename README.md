@@ -52,3 +52,4 @@ Angular Master Course - Part 1:
 * 09 - Bind to controller
 * 10 - Compile Link
 * 11 - Single slot transclusion
+* 12 - Manual transclusion
