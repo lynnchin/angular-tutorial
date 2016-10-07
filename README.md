@@ -50,3 +50,5 @@ Angular Master Course - Part 1:
 * 07 - Directive controllers
 * 08 - Isolated Inherited Scope
 * 09 - Bind to controller
+* 10 - Compile Link
+* 11 - Single slot transclusion
