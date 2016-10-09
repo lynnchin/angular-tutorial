@@ -55,3 +55,4 @@ Angular Master Course - Part 1:
 * 12 - Manual transclusion
 * 13 - Multislot transclusion
 * 14 - Require
+* 15 - Dom Manipulation
