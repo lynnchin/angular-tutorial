@@ -53,3 +53,4 @@ Angular Master Course - Part 1:
 * 10 - Compile Link
 * 11 - Single slot transclusion
 * 12 - Manual transclusion
+* 13 - Multislot transclusion
