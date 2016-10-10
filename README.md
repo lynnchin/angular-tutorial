@@ -56,3 +56,4 @@ Angular Master Course - Part 1:
 * 13 - Multislot transclusion
 * 14 - Require
 * 15 - Dom Manipulation
+* 16 - Third Party
