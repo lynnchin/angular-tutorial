@@ -1,7 +1,5 @@
 function MainController(){
-    this.firstCount = 1;
-    this.secondCount = 2;
-    this.thirdCount = 3;
+    this.count=5;
 }
 
 angular
