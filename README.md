@@ -57,3 +57,5 @@ Angular Master Course - Part 1:
 * 14 - Require
 * 15 - Dom Manipulation
 * 16 - Third Party
+* 17 - Component method
+
