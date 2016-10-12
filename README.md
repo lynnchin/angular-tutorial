@@ -58,4 +58,5 @@ Angular Master Course - Part 1:
 * 15 - Dom Manipulation
 * 16 - Third Party
 * 17 - Component method
+* 18 - Require-init-postlink-destroy
 

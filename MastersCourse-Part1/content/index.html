@@ -2,16 +2,26 @@
 <head>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
 <script src="js/app.js"></script>
-<script src="js/components/counter.js"></script>       
-<script src="js/controllers/MainController.js"></script>
+<script src="js/components/tabs.js"></script>       
+<script src="js/components/tab.js"></script>
     <style>
-        input { text-align: center; border: 1px solid #eee; }
-        button { border: 0; background: #eee; border-radius: 3px; }
+        .tabs__content {
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
- <div ng-controller="MainController as main">
-     <counter count="main.count"></counter>
- </div>
+ <tabs>
+  <tab label="Tab 1">
+    Tab 1 contents!   
+  </tab>
+  <tab label="Tab 2">
+    Tab 2 contents!   
+  </tab>
+  <tab label="Tab 3">
+    Tab 3 content!   
+  </tab>
+    
+ </tabs>
 </body>
 </html>
