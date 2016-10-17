@@ -15,6 +15,9 @@ var tabs = {
       this.$postLink = function () {
           this.selectTab(0);
       };
+      this.$onDestroy = function(){
+         
+      };
   },
   template: `
         <div class="tabs">

@@ -59,4 +59,4 @@ Angular Master Course - Part 1:
 * 16 - Third Party
 * 17 - Component method
 * 18 - Require-init-postlink-destroy
-
+* 19 - one-way-onchanges
